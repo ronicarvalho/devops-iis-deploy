@@ -1,0 +1,28 @@
+{
+  "name": "devops-iis-deploy",
+  "version": "1.0.0",
+  "description": "Devops IIS Deploy",
+  "main": "devopsiisdeploy.js",
+  "scripts": {
+    "test": "node make.js test"
+  },
+  "author": "Roni Carvalho",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "azure-pipelines-task-lib": "^3.2.0",
+    "azure-pipelines-tasks-webdeployment-common": "^3.198.1",
+    "cjs-loader": "^0.1.0",
+    "minimist": "^1.2.6",
+    "request": "^2.88.2",
+    "typescript": "^4.6.3",
+    "validator": "^13.7.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.27",
+    "@types/q": "^1.5.5",
+    "sync-request": "^6.1.0"
+  }
+}
